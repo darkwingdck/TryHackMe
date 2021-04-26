@@ -1,0 +1,17 @@
+# Nmap 7.91 scan initiated Sat Mar 27 12:30:40 2021 as: nmap -sC -sV -oN nmap 10.10.246.229
+Nmap scan report for enterprize.thm (10.10.246.229)
+Host is up (0.63s latency).
+Not shown: 997 filtered ports
+PORT    STATE  SERVICE VERSION
+22/tcp  open   ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 67:c0:57:34:91:94:be:da:4c:fd:92:f2:09:9d:36:8b (RSA)
+|   256 13:ed:d6:6f:ea:b4:5b:87:46:91:6b:cc:58:4d:75:11 (ECDSA)
+|_  256 25:51:84:fd:ef:61:72:c6:9d:fa:56:5f:14:a1:6f:90 (ED25519)
+80/tcp  open   http    Apache httpd
+|_http-title: Blank Page
+443/tcp closed https
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Mar 27 12:31:42 2021 -- 1 IP address (1 host up) scanned in 61.53 seconds

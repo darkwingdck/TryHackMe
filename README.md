@@ -1,4 +1,4 @@
 # TryHackMe
 My [TryHackMe](https://tryhackme.com/) walkthrough
 
-Please, try to solve it with yourself, my walkthrough is one big spoiler!
+Please, try to solve it by yourself, my walkthrough is a big spoiler!
